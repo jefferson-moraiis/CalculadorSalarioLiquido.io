@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pr-bt">
+     <head>
+		  <meta charset="UTF-8">
+		  <title>Calculador de folha de pagamento</title>
+		  <link rel="stylesheet"  type="text/CSS" href="index.css"/>
+	 </head>
+     <body  >
+		 <form  class="form" >
+			 <h2>Calculador de Imposto</h2>
+			<fieldset>
+					
+					<input  type="number"  id="horas"       class="textbox" placeholder="Quantidade de Horas"/>
+					<input  type="number"  id="valor"       class="textbox" placeholder="Valor por Hora"/>			
+					<input  type="number"  id="dependentes" class="textbox" placeholder="N° de Dependentes"/>
+					<button type="button" onclick="CalculaImposto()"   id="btn">CALCULAR</button>	
+					
+				
+		   <div class="spans" >
+			   <span id="SalarioLiquido"></span>
+				<span id="Inss"></span>
+				<span  id="IR"></span>
+				<span id="ndepedentes"></span>
+		   </div>
+				
+			</fieldset> 
+		</form>
+		   
+		   <script src="index.js"></script>
+     </body>
+</html>	 
