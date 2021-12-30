@@ -5,4 +5,4 @@ aprendi a utilizar operadores aritméticos e relacionais
 e pouco a manipulação da DOM
 
 
-acesse o link:https://jeffersonorlando.github.io/CalculadorSalarioLiquido.io/
+acesse o link:https://jefferson-moraiis.github.io/CalculadorSalarioLiquido.io/
